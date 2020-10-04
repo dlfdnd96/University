@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Search Dogs</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="dogImageResult_message">이 사진으로 선택 하시겠습니까?</string>
+    <string name="fragmentGallery_message">여기를 눌러 앨범에서 강아지 사진을 선택하세요</string>
+    <string name="result_message">결과</string>
+
+    <!-- 추천 애견용품 카테고리 -->
+    <string name="text_collapsed">Collapsed</string>
+
+    <string name="cloth">애견의류</string>
+    <string name="accessory">악세사리</string>
+    <string name="outside_product">외출용품</string>
+    <string name="bowl_tableware">밥그릇/식기</string>
+    <string name="bath_beauty_care">목욕/미용/위생</string>
+    <string name="toy">장난감</string>
+
+    <string-array name="cloth_array">
+        <item>커플룩</item>
+        <item>니트</item>
+        <item>후드</item>
+        <item>올인원</item>
+        <item>민소매</item>
+        <item>패딩</item>
+        <item>나시</item>
+        <item>야상</item>
+        <item>원피스</item>
+        <item>위생패드</item>
+        <item>드레스</item>
+        <item>잠옷</item>
+        <item>목욕가운</item>
+        <item>방풍</item>
+        <item>레인코트</item>
+    </string-array>
+    <string-array name="accessory_array">
+        <item>목걸이</item>
+        <item>스카프</item>
+        <item>넥타이</item>
+        <item>모자</item>
+        <item>목도리</item>
+        <item>헤어핀</item>
+    </string-array>
+    <string-array name="outside_product_array">
+        <item>하네스</item>
+        <item>리드줄</item>
+        <item>목줄</item>
+        <item>자동줄</item>
+        <item>이동가방</item>
+        <item>신발</item>
+        <item>물통</item>
+        <item>입마개</item>
+    </string-array>
+    <string-array name="bowl_tableware_array">
+        <item>식기</item>
+        <item>식탁</item>
+        <item>급수기</item>
+        <item>물병</item>
+        <item>자동급식기</item>
+    </string-array>
+    <string-array name="bath_beauty_care_array">
+        <item>샴푸</item>
+        <item>린스</item>
+        <item>브러쉬</item>
+    </string-array>
+    <string-array name="toy_array">
+        <item>장난감</item>
+        <item>노즈워크</item>
+        <item>공</item>
+        <item>원반</item>
+    </string-array>
+</resources>

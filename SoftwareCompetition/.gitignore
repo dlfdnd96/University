@@ -1,0 +1,14 @@
+### User ignore ###
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+ImageAI/.idea/
+ImageAI/videos/*.mp4
+ImageAI/videos/*.avi
+.idea/
+ImageAI/crop-frames/
+ImageAI/frames/
+ImageAI/videos/result/
+ImageAI/coordinate/
+ImageAI/*.h5

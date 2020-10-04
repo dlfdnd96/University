@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+    <string-array name="statistics_array1">
+        <item>정류장별</item>
+        <item>노선별</item>
+    </string-array>
+
+    <string-array name="statistics_array2">
+        <item>월별</item>
+        <item>분기별</item>
+    </string-array>
+    <string-array name="statistics_array3">
+        <item>01월</item>
+        <item>02월</item>
+        <item>03월</item>
+        <item>04월</item>
+        <item>05월</item>
+        <item>06월</item>
+        <item>07월</item>
+        <item>08월</item>
+        <item>09월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+
+    </string-array>
+    <string-array name="statistics_array4">
+        <item>1분기</item>
+        <item>2분기</item>
+        <item>3분기</item>
+        <item>4분기</item>
+    </string-array>
+</resources>

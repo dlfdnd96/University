@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">빵빵 시계</string>
+    <string name="header_title">원하는 노선을 선택하세요</string>
+    <string name="footer_button_close">닫기</string>
+
+    <string name="station_hint">정류장</string>
+    <string name="alarm_name_hint">알람음</string>
+    <string name="alarm_default_hint">기본 알람음</string>
+    <string name="alarm_cancel">취소</string>
+    <string name="alarm_save">저장</string>
+
+    <string name="search_title">정류장 찾기</string>
+
+    <string name="no_data">정보 없음</string>
+
+    <string name="menu_1">알람</string>
+    <string name="menu_2">통계</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

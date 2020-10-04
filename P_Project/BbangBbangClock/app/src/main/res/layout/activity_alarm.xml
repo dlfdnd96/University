@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:id="@+id/activity_alarm_logo_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="@dimen/alarm_margin"
+        android:src="@drawable/logoicon" />
+
+    <TextView
+        android:id="@+id/activity_alarm_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/activity_alarm_logo_image"
+        android:scrollbars="vertical"
+        android:text="빵빵시계"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#34000000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/activity_alarm_current_time_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_alarm_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_alarm_current_time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알람"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/activity_alarm_current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="현재 시간"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/activity_alarm_weather_image"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/activity_alarm_current_time_linear_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+
+    <FrameLayout
+        android:id="@+id/activity_alarm_weather_frame"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/activity_alarm_weather_image"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:id="@+id/activity_alarm_fragment"
+        android:name="kr.ac.gachon.bbangbbangclock.fragment.WeatherFragment"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/activity_alarm_weather_image"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="@dimen/alarm_margin"
+        android:layout_below="@+id/activity_alarm_weather_frame"
+        android:id="@+id/activity_alarm_arrive_linear_layout">
+
+        <ImageView
+            android:id="@+id/activity_alarm_station_image"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/activity_alarm_route_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:layout_marginStart="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_alarm_arrived"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_alarm_arrive_linear_layout"
+        android:lineSpacingExtra="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/alarm_margin"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_alarm_after5_alarm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5분뒤"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/activity_alarm_riding_alarm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="출발"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/activity_alarm_end_alarm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

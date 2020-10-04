@@ -1,0 +1,2 @@
+include ':app', ':ODsayAndroidSDK'
+rootProject.name='BbangBbangClock'

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorInactive">#747474</color>
+    <color name="colorActiveSmall">#FFFFFF</color>
+    <color name="colorInactiveSmall">#50FFFFFF</color>
+
+    <color name="color_notification_back">#ffcd33</color>
+    <color name="color_notification_text">#3E4757</color>
+
+    <array name="tab_colors">
+        <item name="tab_1">#455C65</item>
+        <item name="tab_2">#00886A</item>
+    </array>
+
+    <color name="cursorColor">#5154FF</color>
+    <color name="nomalColor">#5154FF</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="primary">#EF5350</color>
+    <color name="secondary">#B71C1C</color>
+    <color name="overlay_light">#F8F8F8</color>
+
+    <color name="search_station_separator_line">#ECECEC</color>
+    <color name="search_station_title">#222222</color>
+    <color name="search_station_subtitle">#999999</color>
+    <color name="theme_primary">#2196F3</color>
+</resources>
